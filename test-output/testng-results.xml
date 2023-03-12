@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login Suite" duration-ms="106517" started-at="2022-06-02T17:30:25 IST" finished-at="2022-06-02T17:32:12 IST">
+    <groups>
+    </groups>
+    <test name="Login Test Cases" duration-ms="106517" started-at="2022-06-02T17:30:25 IST" finished-at="2022-06-02T17:32:12 IST">
+      <class name="com.loginTestCases.CorrectPassword">
+        <test-method status="PASS" signature="loginWithCorrectPassword()[pri:0, instance:com.loginTestCases.CorrectPassword@6895a785]" name="loginWithCorrectPassword" duration-ms="23565" started-at="2022-06-02T17:31:24 IST" finished-at="2022-06-02T17:31:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectPassword -->
+      </class> <!-- com.loginTestCases.CorrectPassword -->
+      <class name="com.loginTestCases.BothIncorrect">
+        <test-method status="PASS" signature="loginWithCorrectUserNameAndINCorrectPasswoed()[pri:0, instance:com.loginTestCases.BothIncorrect@48503868]" name="loginWithCorrectUserNameAndINCorrectPasswoed" duration-ms="24545" started-at="2022-06-02T17:30:59 IST" finished-at="2022-06-02T17:31:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserNameAndINCorrectPasswoed -->
+      </class> <!-- com.loginTestCases.BothIncorrect -->
+      <class name="com.loginTestCases.CorrectUserName">
+        <test-method status="PASS" signature="loginWithCorrectUserName()[pri:0, instance:com.loginTestCases.CorrectUserName@184f6be2]" name="loginWithCorrectUserName" duration-ms="24000" started-at="2022-06-02T17:31:48 IST" finished-at="2022-06-02T17:32:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserName -->
+      </class> <!-- com.loginTestCases.CorrectUserName -->
+      <class name="com.loginTestCases.BothCorrect">
+        <test-method status="PASS" signature="loginWithCorrectUserNameAndCorrectPassword()[pri:0, instance:com.loginTestCases.BothCorrect@1c3a4799]" name="loginWithCorrectUserNameAndCorrectPassword" duration-ms="34334" started-at="2022-06-02T17:30:25 IST" finished-at="2022-06-02T17:30:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserNameAndCorrectPassword -->
+      </class> <!-- com.loginTestCases.BothCorrect -->
+    </test> <!-- Login Test Cases -->
+  </suite> <!-- Login Suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name= "Login Suite">
+
+<test name= "Login Test Cases">
+<classes>
+<class name="com.loginTestCases.BothCorrect"/>
+<class name="com.loginTestCases.BothIncorrect"/>
+<class name="com.loginTestCases.CorrectPassword"/>
+<class name="com.loginTestCases.CorrectUserName"/>
+
+
+
+
+
+</classes>
+
+
+</test>
+
+
+</suite>
